@@ -1,0 +1,127 @@
+
+html(lang='en')
+  head
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.2.0/css/all.css', integrity='sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO', crossorigin='anonymous')
+    link(rel='stylesheet', href='stylesheets/style.css')
+    title Rekhil Mittu
+  body#bg-img
+    header
+
+    
+      nav.menu
+        .menu-branding
+          .portrait
+        ul.menu-nav
+          li.nav-item.current
+            a.nav-link(href='/')
+              | Home
+          li.nav-item
+            a.nav-link(href='about-me.pug')
+              | About Me
+          li.nav-item
+            a.nav-link(href='projects.pug')
+              | My Work
+          li.nav-item
+            a.nav-link(href='contact-me.pug')
+              | How To Reach Me
+    main#home
+      h1.lg-heading
+        | Rekhil 
+        span.text-secondary Mittu
+      h2.sm-heading
+        | Web Developer, Programmer & Designer
+      .icons
+        a(href='#!')
+          i.fab.fa-twitter.fa-2x
+        a(href='#!')
+          i.fab.fa-facebook.fa-2x
+        a(href='#!')
+          i.fab.fa-linkedin.fa-2x
+        a(href='#!')
+          i.fab.fa-github.fa-2x
+
+
+
+           main#contact
+
+        .bio
+          h3.text-secondary About Me 
+          p
+            | Rekhil Mittu is a web designer from India 
+
+            |  I spend my days with my hands in many different areas of web development from back end programming (PHP,SQL Database,Wordpress, ASP.NET on Rails) to front end engineering (HTML, CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.
+        .job.job-1
+          h3 123 Webshop
+          h6 Full Stack Developers
+          p
+            | I’m extremely passionate about web development and design in all it’s forms and helping small businesses and artisans build and improve their online presence.
+            | Aside from web development, I enjoy spending my time with my wife, sons, and daughter, brewing beer, taking photos and playing & watching sports (hockey, golf, and mixed martial arts to name a few).
+        
+      h1.lg-heading
+        | My
+        span.text-secondary Work
+      h2.sm-heading
+        | Check out some of my projects...
+      .projects
+        .item
+          a(href='#!')
+            img(src='https://designmodo.com/wp-content/uploads/2017/10/03-ilya-grigorik-portfolio.jpg', alt='Project')
+          a.btn-light(href='#')
+            i.fas.fa-eye
+            |  Project
+          a.btn-dark(href='#')
+            i.fab.fa-github
+            |  Github
+        .item
+          a(href='#!')
+            img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpuTD83FHqXUGqMZfHjFN3OSi_AGe0K2lBWDU_7WU1D2C-QMmR', alt='Project')
+          a.btn-light(href='#')
+            i.fas.fa-eye
+            |  Project
+          a.btn-dark(href='#')
+            i.fab.fa-github
+            |  Github
+        
+        .item
+          a(href='#!')
+            img(src='https://helpx.adobe.com/content/dam/help/en/lightroom-cc/how-to/lightroom-photoshop-edit-photos_1800x1012.jpg', alt='Project')
+          a.btn-light(href='#')
+            i.fas.fa-eye
+            |  Photoshop  Project
+          a.btn-dark(href='#')
+            i.fab.fa-github
+            |  Github
+        .item
+          a(href='#!')
+            img(src='https://sg.fiverrcdn.com/photos/73412101/original/a149997a9159e194fc73d03e9926d836665670c5.jpg?1485877158', alt='Project')
+          a.btn-light(href='#')
+            i.fas.fa-eye
+            |  Photoshop Project
+          a.btn-dark(href='#')
+            i.fab.fa-github
+            |  Github
+
+      h1.lg-heading
+        | Contact
+        span.text-secondary Me
+      h2.sm-heading
+        | This is how you can reach me...
+      .boxes
+        div
+          span.text-secondary Email: 
+          | rekhilmittu99@gmail.com
+        div
+          span.text-secondary Phone: 
+          |  (289)943-9774
+        div
+          span.text-secondary Address: 
+          | 15 Addison Trail L4M 7A5 ,ON,Barrie
+    footer#main-footer
+      | Copyright © 2018   Rekhil Mittu 
+    
+  script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49', crossorigin='anonymous')
+  script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy', crossorigin='anonymous')
+
+          block content
